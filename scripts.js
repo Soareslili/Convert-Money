@@ -38,12 +38,12 @@ function changeCurrency() {
     
     if(currencySelect.value =='dolar'){
         currencyName.innerHTML = 'Dólar americano'
-        currencyImage.scr = './assets/USD.png'
+        currencyImage.src = './assets/USD.png'
     } 
 
     if(currencySelect.value =='euro'){
         currencyName.innerHTML = 'euro'
-        currencyImage.scr ='./assets/euro.png'
+        currencyImage.src ='./assets/euro.png'
     } 
 }
 
